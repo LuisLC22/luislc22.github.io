@@ -8,11 +8,32 @@ body{
                             "academic-training  academic-training"
                             "work-experience    work-experience"
                             "footer            footer";
+    height: 100vh;   
+    font-family: 'Roboto','Times New Roman', Times, serif;                         
+
 }
 
 .header{
     grid-area: header;
+    background-color: #3266BC;
+    color: white;
 }
+
+.header__menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__menu ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.header__menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .contact{
     grid-area: contact;
@@ -34,5 +55,7 @@ body{
     grid-area: footer;
 }
 
-
-
+/* 
+section{
+    background-color: #FAFAFA;
+} */
