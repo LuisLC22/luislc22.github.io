@@ -4,19 +4,28 @@ body{
     display: grid;
     grid-template: repeat(5, 1fr) / repeat(2, 1fr);
     grid-template-areas:    "header            header"
-                            "contact           objective"
-                            "academic-training  academic-training"
-                            "work-experience    work-experience"
-                            "footer            footer";
+    "contact           objective"
+    "academic-training  academic-training"
+    "work-experience    work-experience"
+    "data-of-interest   data-of-interest"
+    "footer            footer";
     height: 100vh;   
     font-family: 'Roboto','Times New Roman', Times, serif;                         
+    gap: 20px;
+}
 
+section{
+    background-color: #FAFAFA;
 }
 
 .header{
     grid-area: header;
     background-color: #3266BC;
     color: white;
+}
+
+.header__information{
+    background-color: #3266BC;
 }
 
 .header__menu ul{
@@ -34,6 +43,9 @@ body{
     color: white;
 }
 
+.header__information{
+    display: flex;
+}
 
 .contact{
     grid-area: contact;
@@ -51,11 +63,10 @@ body{
     grid-area: work-experience;
 }
 
+.data-of-interest{
+    grid-area: data-of-interest;
+}
+
 .footer{
     grid-area: footer;
 }
-
-/* 
-section{
-    background-color: #FAFAFA;
-} */
