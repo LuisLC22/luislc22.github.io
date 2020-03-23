@@ -47,6 +47,18 @@ section{
     display: flex;
 }
 
+.header__information--personalPhoto img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.header__information--personalInformation{
+    width: 80vw;
+    text-align: center;
+    align-self: center;
+}
+
 .contact{
     grid-area: contact;
 }
