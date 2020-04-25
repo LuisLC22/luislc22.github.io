@@ -28,12 +28,12 @@ section{
 .header{
     grid-area: header;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color);
 }
 
 .header__menu{
     height: 50px;
-    width: 100vw;
+    width: 86vw;
     display: flex;
     text-align: center;
     justify-content: end;
@@ -63,23 +63,25 @@ section{
 }
 
 .header__information{
-    background-color: inherit;
-}
-
-.header__information{
     display: flex;
+    height: 200px;
+    width: 100vw;
+    justify-content: center;
+    background-color: inherit;
+    align-items: center;
 }
 
 .header__information--personalPhoto img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .header__information--personalInformation{
-    width: 80vw;
     text-align: center;
-    align-self: center;
+    width: 600px;
+    margin: 4%;
 }
 
 /*
