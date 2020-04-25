@@ -20,8 +20,26 @@ body{
     gap: 20px;
 }
 
+section{
+    border: solid 2px var(--primary-color);
+}
+
 h3{
     text-transform: capitalize;
+}
+
+h5{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+}
+
+h6{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0.9em 0;
 }
 
 section{
@@ -109,9 +127,43 @@ section{
     grid-area: objective;
 }
 
-.academic-training{
+.objective__information{
+    height: 80%;
+    margin: 3vh 4.4vw;
+    width: 80%;
+}
+
+.objective__information{
+    text-align: justify;
+}
+
+.academicTraining{
     grid-area: academic-training;
 }
+
+.academicTraining__information{
+    height: 96%;
+    width: 92%;
+    margin: 2% 4%;
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+}
+
+.academicTraining__information .engineering{
+    grid-column: 1 / 2;
+    text-align: center;
+}
+
+.academicTraining__information .summer{
+    grid-column: 2 / 3;
+    text-align: center;
+}
+
+.academicTraining__information .technical{
+    grid-column: 3 / 4;
+    text-align: center;
+}
+
 
 .work-experience{
     grid-area: work-experience;
