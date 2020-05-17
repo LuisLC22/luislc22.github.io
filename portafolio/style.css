@@ -1,0 +1,131 @@
+:root {
+    --white-color: rgb(250, 250, 251);
+    --primary-color:#467CCE;
+    --font-title: font-family: 'Roboto', sans-serif;
+    --font-content: font-family: 'Open Sans', sans-serif;
+    --h1-size: 30px;
+    --h2-size: 26px;
+    --h3-size: 21px;
+    --h4-size: 17px;
+    --h5-size: 14px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.header__nav{
+    width: 50vw;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.header__nav--items{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    list-style: none;
+    border: 1px solid red;
+}
+
+.header__nav ul{
+    height: inherit;    
+    margin: 0 15px 0 0;
+}
+
+.header__nav--items li{
+    height: inherit;
+    margin-left: 15px; 
+}
+
+
+.header__nav--items li a{
+    color: var(--white-color);
+    text-decoration: none;
+    font-style: var(--font-title);
+    font-size: var(--h4-size);
+    font-weight: 500;
+    height: inherit;
+    display: flex;
+    align-items: center;    
+}
+
+.header__title{
+    margin-left: 15px;
+}
+
+.header__title h1{
+    margin: 0;
+    font-style: var(--font-title);
+    font-size: var(--h1-size);
+}
+
+.hero{
+    margin: 0;
+    text-align: center;
+    background-image: url('./public/images/fondo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 88vh;
+}
+
+.hero__image{
+    margin: 0 auto;
+}
+
+.hero__image img{
+    margin-top: 19vh;
+    width: 160px;
+    height: 160px;
+}
+
+.hero__title{
+    width: 550px;
+    margin: 0 auto;
+    font-size: var(--h2-size);
+    font-weight: 600;
+}
+
+.hero__title p{
+    margin-top: 17vh;
+}
+
+.hero__title span{
+    color: var(--primary-color);
+}
+
+.hero__social ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.hero__social ul li{
+    list-style: none;
+}
+
+.hero__social ul li img{
+    width: 60px;
+    height: 60px;    
+}
+
+
