@@ -1,5 +1,6 @@
 :root {
     --white-color: rgb(250, 250, 251);
+    --black-color: #161619;
     --primary-color:#467CCE;
     --font-title: font-family: 'Roboto', sans-serif;
     --font-content: font-family: 'Open Sans', sans-serif;
@@ -128,4 +129,60 @@ body{
     height: 60px;    
 }
 
+.professional{
+    width: 80vw;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
+.professional__title{
+    position: absolute;
+    top: 70px;
+    left: 38px;
+}
+
+.professional--objective{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.professional--objective p{
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    font-family: var(--font-content);
+    font-size: var(--h3-size);
+}
+
+.professional--icons--mongo{
+    background-color: var(--black-color);
+    border-radius: 50%;
+}
+
+.professional--icons{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.professional--icons ul{
+    list-style: none;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.professional--icons ul li{
+    margin-left: 10px;
+}
+
+.professional--icons ul li img{
+    height: 80px;
+    width: 80px;
+} 
