@@ -220,6 +220,7 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+
 .interesting{
     width: 80vw;
     height: 400px;
@@ -228,6 +229,12 @@ body{
     justify-content: space-evenly;
     align-self: center;
     position: relative;
+}
+
+.interesting__title{
+    position: absolute;
+    top: 0px;
+    left: 28px;
 }
 
 .interesting__items{
@@ -299,6 +306,21 @@ footer p{
      .experience__title{
         margin-left: -2vw;
      }
+
+    .interesting__items{
+
+    }
+
+    .interesting__items div img{
+        height: 100px;
+        width: 100px;
+        text-align: center;
+    }
+
+    footer{
+        height: 60px;    
+        padding-top: 11px;
+    }
 }
 
 
